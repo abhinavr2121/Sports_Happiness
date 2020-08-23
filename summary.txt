@@ -1,0 +1,57 @@
+SPORTS VS. HAPPINESS PROJECT (2019)
+Hypotheses:
+1. The existence of national sports team(s) correlate to a stronger position on the World Happiness Index.
+      a) Compare average WHI position of countries that have < 2 sports teams with those that have >= 2 (confirmed)
+2. The existence of both a men's and women's team correlates to a stronger position on the WHI.
+      a) Compare average WHI position of countries that have only men's teams (Middle East) with those that have women's teams too (lurking variable: gender equality boosts happiness) (confirmed)
+3. The more sports teams a country is engaged in, the higher they will rank on the WHI.
+      a) Correlation --> total number of sports teams vs. WHI (confirmed)
+4. Number of sports teams does not necessarily stem from higher GDP
+      a) Correlation --> GDP vs. total number of sports teams (disproved)
+5. Curious about effect of rank on position in WHI
+      a) Average sports rank score per country, correlate with WHI (confirmed)
+
+DATA:
+156 countries from the World Happiness Report (2018)[cite]
+GDP for each country 2018 --> World Bank
+Women's T20 Cricket Rankings --> ESPN
+Men's T20 Cricket Rankings --> Wikipedia
+Women's Soccer --> FIFA
+Men's Soccer --> FIFA
+Men's Rugby --> World Rugby
+Women's Rugby --> Scrum Queens
+Men's/Women's Basketball --> FIBA
+Men's/Women's Field Hockey --> FIH
+Men's/Women's Water Polo --> FINA
+Men's/Women's Volleyball --> FIVB
+
+Recognized International Team Sports used for this project (either gender):
+- Football (European) (x)
+- Rugby (x)
+- Cricket (x)
+- Outdoor Field Hockey (x)
+- Basketball (x)
+- Water Polo (x)
+- Volleyball (x)
+
+Minimized correlation between variables (i.e. not including futsal because football exists)
+
+METHODOLOGY:
+1. Join data on country name for all sports
+2. Exploratory data analysis (average "sports score", distribution of number of sports teams, number of women/men teams distribution, best ranking men's/women's sports countries)
+3. Plot World Happiness Index vs. GDP
+4. Join data on World Happiness Index
+5. Assign "team sports score" with an equation --> penalize lack of sports teams (with a -1?), reward dual-gender  (try weighting women's teams differently)
+6. Carry out experiments in "Hypotheses" section
+
+DATA FORMATTING:
+- Since not having a specific team should be a larger penalty, missing team values will be assumed to have a rank of 157 (since there are 156 countries on this list). [not doing this]
+
+COUNTRY PERFORMANCE AVERAGES:
+Unweighted: simple average
+Weighted: zeta * # missing teams + sum(156 / Rank.M) + alpha * sum(156 / Rank.W)
+FINDINGS:
+Sports correlates weakly with GDP
+Sports correlates weakly with Happiness
+GDP correlates strongly with Happiness
+--> international sports teams are a possible index of measuring happiness
