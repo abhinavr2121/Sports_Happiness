@@ -7,6 +7,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 ![alt text](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
 
 Special thanks goes to the below sources for their data and the masterminds behind the [R Programming Language](https://r-project.org) and its assorted libraries.
+
 Data Sources:
 1. World Bank
 2. World Happiness Report
