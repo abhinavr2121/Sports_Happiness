@@ -1,7 +1,7 @@
 # Sports vs. Happiness
 ## By Abhinav Raghunathan
 
-The work in this repository was implemented for an [article](https://towardsdatascience.com/learned-entrepreneurship-5f4d47561ead) written on [Medium](https://medium.com).
+The work in this repository was implemented for an [article](https://towardsdatascience.com/are-international-sports-contributing-to-global-unhappiness-1ca44b188ea3) written on [Medium](https://medium.com).
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)</br></br>
 ![alt text](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "Creative Commons License")
